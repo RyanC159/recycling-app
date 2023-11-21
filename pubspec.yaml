@@ -42,6 +42,13 @@ dependencies:
   geolocator: ^10.1.0
   location: ^5.0.3
 
+  camera: ^0.9.4+5
+  # tflite_flutter: ^0.9.0
+  # tflite_flutter_helper: ^0.3.1
+  tflite: ^1.1.2
+  percent_indicator: ^4.2.3
+  image_picker: ^1.0.4
+
 dev_dependencies:
   test:
   flutter_test:
@@ -61,6 +68,9 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+  assets:
+    - assets/converted_model.tflite
+    - assets/labels.txt
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.

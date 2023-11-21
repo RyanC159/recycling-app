@@ -73,7 +73,7 @@ class MockHome extends Home {
           HomeFact(
               title: 'Materials that cannot be recycled include:', text: 'two'),
         ],
-        videoUrl: 'https://www.youtube.com/watch?v=0Ei1z8yqQ8s'),
+        videoUrl: 'mFc80PhnU7w'),
     // Home(
     // id: 6,
     //     name: 'Textile',

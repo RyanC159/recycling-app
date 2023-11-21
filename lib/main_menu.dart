@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:recycling_app/recycling_camera.dart';
 import 'mocks/mock_home.dart';
 import 'home_list.dart';
 import 'nearby_centre.dart';
+import 'camera_test.dart';
 // import 'package:url_launcher/url_launcher.dart';
 // import 'package:recycling_app/page_three.dart';
 
@@ -44,11 +46,10 @@ class MainMenu extends StatelessWidget {
             SizedBox(height: 10),
             ElevatedButton(
               onPressed: () {
-                // Navigator.push(
-                //   context,
-                //   MaterialPageRoute(builder: (context) => PageThree()),
-                // );
-                //  launchUrl(Uri.parse('https://maps.google.com/?cid=12539158001643291701'));
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => RecyclingCamera()),
+                );
               },
               child: Text('Recycling Camera'),
             ),
