@@ -1,8 +1,9 @@
-# recycling_app
+# Recycling App
+A recycling flutter mobile application that is able to display information in a list and also display nearby recycling centres.
 
 Remember to add your own Google API key with Google Places(New) API enabled in cloud console.
-Remember to add it in the android manifest file and also the nearby_centre.dart file
-A new Flutter project.
+Remember to add it in the android manifest file and also the nearby_centre.dart file.
+
 
 ## Getting Started
 
